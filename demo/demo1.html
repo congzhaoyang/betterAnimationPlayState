@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo1</title>
+  <style>
+  @keyframes circle {
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  .wrap {
+    width: 50px;
+    height: 50px;
+  }
+  .img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red; 
+  }
+  .playing {
+    animation: circle 10s infinite linear;
+  }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="img"></div>
+  </div>
+  <div class="wrap">
+    <div class="img"></div>
+  </div>
+  <div class="wrap">
+    <div class="img"></div>
+  </div>
+  <div class="wrap">
+    <div class="img"></div>
+  </div>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../index.js"></script>
+</body>
+</html>
