@@ -1,0 +1,2 @@
+# betterAnimationPlayState.js
+
